@@ -8,16 +8,14 @@ body{
 }
 
 /* Nav related style */
-.header{
-    height: 700px;
-    background-color: #FFF8F3;
-}
+
 nav{
     padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    
 }
 .nav h3{
     font-size: 35px;
@@ -39,4 +37,36 @@ li{
     border-radius: 8px;
     border: 1px solid orange;
     font-size: 15px;
+}
+
+/* Header related style */
+.header{
+    height: 650px;
+    background-color: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner img{
+    width: 450px;
+    padding-top: 30px;
+}
+.banner h3{
+    font-size: 40px;
+}
+.banner h1{
+    font-size: 60px;
+}
+.banner p{
+    width: 600px;
+    padding: 20px 20px 20px 0px;
+}
+.banner-text{
+    min-width: 500px;
 }
