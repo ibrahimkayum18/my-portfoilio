@@ -16,6 +16,7 @@ nav{
     align-items: center;
     list-style: none;
     
+    
 }
 .nav h3{
     font-size: 35px;
@@ -46,12 +47,13 @@ li{
 
 /* Header related style */
 .header{
-    height: 680px;
+    height: 768px;
     background-color: #FFF8F3;
     background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -75,6 +77,7 @@ li{
 }
 .banner-text{
     min-width: 500px;
+    
 }
 /* Main section style */
 .content{
@@ -87,7 +90,7 @@ li{
 .about{
     text-align: center; 
     padding: 100px;
-    width: 780px;
+    /* width: px; */
     margin: auto;
     background-color: #FFF8F3;
 }
