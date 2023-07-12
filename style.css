@@ -30,8 +30,13 @@ li{
     color: gray;
 
 }
+.material-symbols-outlined{
+    font-size: 15px;
+    align-items: center;
+    
+}
 .btn-1{
-    padding: 15px 25px;
+    padding: 15px 20px;
     background-color: orange;
     color: #fff;
     border-radius: 8px;
@@ -189,8 +194,12 @@ li{
     padding: 15px 20px;
     margin: 15px 0px;
 }
+.p-div input:focus{
+    border: 1px solid white;
+}
 .p-div textarea{
     margin: 15px 0px;
+    padding: 15px 20px;
 }
 
 
